@@ -16,19 +16,21 @@ public class ScaryComponent extends JComponent
       // Recover Graphics2D
       Graphics2D g2 = (Graphics2D) g;
       Color blu = new Color(0,0,255);
-      Ellipse2D.Double Face = new Ellipse2D.Double(100, 100, 125, 150);
-      Ellipse2D.Double eye1 = new Ellipse2D.Double(130, 150, 20, 20);
-      Ellipse2D.Double eye2 = new Ellipse2D.Double(170 , 150, 20, 20);
-      Ellipse2D.Double pupil1 = new Ellipse2D.Double(135, 155, 10, 10);
-      Ellipse2D.Double pupil2 = new Ellipse2D.Double(175, 155, 10, 10);
-      Line2D.Double nose1 = new Line2D.Double(155,175,145,195);
-      Line2D.Double nose2 = new Line2D.Double(145,195,165,195);
-      Line2D.Double nose3 = new Line2D.Double(155,175,165,195);
-      Line2D.Double teeth1 = new Line2D.Double(130,200,140,220);
-      Line2D.Double teeth2 = new Line2D.Double(140,220,155,200);
-      Line2D.Double teeth3 = new Line2D.Double(155,200,170,220);
-      Line2D.Double teeth4 = new Line2D.Double(170,220,180,200);
-      Rectangle mouth = new Rectangle(130,200,50,20);
+      double result = Math.random() * (175 - 100.00) + 100.00;
+    
+      Ellipse2D.Double Face = new Ellipse2D.Double(100, result, 125, 150);
+      Ellipse2D.Double eye1 = new Ellipse2D.Double(result, 150, 20, 20);
+      Ellipse2D.Double eye2 = new Ellipse2D.Double(170 , result, 20, 20);
+      Ellipse2D.Double pupil1 = new Ellipse2D.Double(result, 155, 10, 10);
+      Ellipse2D.Double pupil2 = new Ellipse2D.Double(175, result, 10, 10);
+      Line2D.Double nose1 = new Line2D.Double(155,result,145,195);
+      Line2D.Double nose2 = new Line2D.Double(145,result,165,195);
+      Line2D.Double nose3 = new Line2D.Double(155,result,165,195);
+      Line2D.Double teeth1 = new Line2D.Double(result,200,140,220);
+      Line2D.Double teeth2 = new Line2D.Double(140,result,155,200);
+      Line2D.Double teeth3 = new Line2D.Double(result,200,170,220);
+      Line2D.Double teeth4 = new Line2D.Double(170,result,180,200);
+      Rectangle.Double mouth = new Rectangle.Double(result,190,50,20);
       g2.setColor(blu);
       g2.fill(Face);  
       g2.setColor(new Color(0,0,0));
