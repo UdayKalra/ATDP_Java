@@ -45,6 +45,11 @@ public class SavingAccount
       // implementation—filled in later
       balance=balance-amount;
    }
+      public void deposit(double amount)
+   {   
+      // implementation—filled in later
+      balance=balance+amount;
+   }
 
    /**
       Gets the current balance of the bank account.
