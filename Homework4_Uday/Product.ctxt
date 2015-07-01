@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Product(java.lang.String,\ double)
+comment0.text=\r\n\ Makes\ a\ product\ with\ a\ name\ and\ price\r\n\ @param\ x\ The\ name\ of\ the\ Product.\r\n\ @param\ y\ The\ price\ of\ the\ Product.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Returns\ the\ name\ of\ the\ product.\r\n
+comment2.params=
+comment2.target=double\ getPrice()
+comment2.text=\r\n\ Returns\ the\ price\ of\ the\ product.\r\n
+comment3.params=
+comment3.target=void\ reducePrice()
+comment3.text=\r\n\ Reduces\ the\ pric\ eof\ the\ object\ by\ 5\ dollars.\r\n
+numComments=4

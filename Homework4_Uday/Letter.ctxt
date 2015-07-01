@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=from\ to
+comment0.target=Letter(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Creates\ a\ letter\ with\ a\ sender\ and\ recipient.\r\n\ @param\ from\ the\ sender.\r\n\ @param\ to\ the\ recipient\r\n
+comment1.params=line
+comment1.target=void\ addLine(java.lang.String)
+comment1.text=\r\n\ Adds\ a\ new\ line\ to\ the\ letter.\r\n\ @param\ line\ the\ new\ line\ of\ text.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getText()
+numComments=3
