@@ -46,12 +46,18 @@ public class House
     public void draw(Graphics2D g){
     Graphics2D g2 = (Graphics2D) g;
     g2.setColor(new Color(139,69,19));
+    g2.draw(new Line2D.Double(x,y,x+(width/2),y+(0.3*height)));
     g2.fill(new Rectangle.Double(x,y,width,height));
     g2.draw(new Rectangle.Double(x,y,width,height));
     g2.setColor(new Color(255,255,255));
     g2.fill(new Rectangle.Double(x+0.4*width,y+0.6*height,0.3*width,0.4*height));
     g2.setColor(new Color(153,255,255));  
-    g2.fill(new Rectangle.Double(x+0.4*width,y+0.2*height,0.3*width,0.2*height));
+    g2.fill(new Rectangle.Double(x+0.2*width,y+0.2*height,0.3*width,0.2*height));
+     g2.fill(new Rectangle.Double(x+0.6*width,y+0.2*height,0.3*width,0.2*height));
+         g2.setColor(new Color(139,69,19));
+         g2.draw(new Line2D.Double(x,y,x+0.5*width,y-(0.3*height)));
+         g2.draw(new Line2D.Double(x+0.5*width,y-(0.3*height),x+width,y));
+      
       
       
       
