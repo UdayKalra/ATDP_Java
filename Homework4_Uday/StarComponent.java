@@ -15,6 +15,8 @@ public class StarComponent extends JComponent
    public void paintComponent(Graphics g)
    { 
        Graphics2D g2 = (Graphics2D) g;
+       g2.setColor(new  Color(152,255,255));
+       g2.fill(new Rectangle(0,0,1800,1000));
        Star one = new Star(0,0);
        Star two = new Star(100,100);
        Star three = new Star(200,200);
