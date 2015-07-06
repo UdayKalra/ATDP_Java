@@ -19,34 +19,34 @@ public class Card
     public Card(String x, String y)
     {
     
-    if (x=="A"){
+    if (x.equals("A")){
         val = "Ace";
     }
-    else if(x=="J"){
+    else if(x.equals("J")){
         val="Jack";
     }
-    else if(x=="Q"){
+    else if(x.equals("Q")){
         val="Queen";
     }
-    else if(x=="K"){
+    else if(x.equals("K")){
         val="Jack";
     }
-    else if(x=="2"||x=="3"||x=="4"||x=="5"||x=="6"||x=="7"||x=="8"||x=="9"||x=="10"){
-        x=val;
+    else if(x.equals("2")||x.equals("3")||x.equals("4")||x.equals("5")||x.equals("6")||x.equals("7")||x.equals("8")||x.equals("9")||x.equals("10")){
+        val = x;;
     }else{
         val = "unknown";
     }
     
-    if(y=="D"){
+    if(y.equals("D")){
     suit="Diamonds";
     }
-    else if(y=="H"){
+    else if(y.equals("H")){
     suit="Hearts";
     }
-    else if(y=="S"){
+    else if(y.equals("S")){
     suit = "Spades";
     }
-    else if(y=="C"){
+    else if(y.equals("C")){
     suit="Clubs";    
     }
     else{
