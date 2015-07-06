@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hour\ min
+comment0.target=Time(int,\ int)
+comment0.text=\r\n\ Creates\ a\ time.\r\n\ @param\ hour\ Hour\ of\ time.\r\n\ @param\ min\ Minutes\ of\ time.\r\n
+comment1.params=hour2\ min2
+comment1.target=int\ compareTo(int,\ int)
+comment1.text=\r\n\ Compares\ two\ times\r\n\ @return\ Returns\ the\ order\ value\ of\ the\ time.\r\n\ @param\ hour2\ Compared\ hour.\r\n\ @param\ min2\ Compared\ minute.\r\n
+numComments=2
