@@ -18,6 +18,7 @@ public class Card
      */
     public Card(String x, String y)
     {
+    
     if (x=="A"){
         val = "Ace";
     }
@@ -32,7 +33,10 @@ public class Card
     }
     else if(x=="2"||x=="3"||x=="4"||x=="5"||x=="6"||x=="7"||x=="8"||x=="9"||x=="10"){
         x=val;
+    }else{
+        val = "unknown";
     }
+    
     if(y=="D"){
     suit="Diamonds";
     }
@@ -45,6 +49,9 @@ public class Card
     else if(y=="C"){
     suit="Clubs";    
     }
+    else{
+    suit = "unknown";
+        }
     }
     /**
      * Returns card description.
