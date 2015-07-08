@@ -43,7 +43,35 @@ public class ItemComponent extends JComponent
       g2.drawString("Course: SD 3535.2 – Programming in Java ",30,230);
       g2.drawString("Grade Report, 7/8/2015",30,250);
       g2.drawString("Student: "+name,30,270);
-      g2.drawString("Grade: ",30,290);
+      //
+      int grade = 75;
+      String fullgr = null;
+      String op= null;
+      if(grade>=0&&grade<=59){
+        fullgr = "F";
+        }
+        else if(grade>=60&&grade<=70){
+        fullgr = "D";
+        }
+        else if(grade>=71&&grade<=79){
+        fullgr = "C";
+        }
+        else if(grade>=80&&grade<=89){
+        fullgr = "B";
+        }
+        else if(grade>=90&&grade<=100){
+        fullgr = "A";
+        }
+        if (grade>=60&&grade<=62||grade>=71&&grade<=72||grade>=80&&grade<=82||grade>=90&&grade<=92){
+        op = "-";
+        }
+        else if (grade>=67&&grade<=70||grade>=77&&grade<=79||grade>=87&&grade<=89||grade>=97&&grade<=100){
+        op = "+";
+        }
+        else{
+        op = "";
+        }
+        g2.drawString("Grade: "+op+fullgr+", %"+grade,30,290);
       g2.draw(new Rectangle(30,330,420,50));
       g2.draw(new Line2D.Double(320,330,320,380));
       g2.drawString("Parent Signature:",33,347);
@@ -71,6 +99,7 @@ public class ItemComponent extends JComponent
       g2.fill(new Ellipse2D.Double(174,84,42,42));
       g2.setColor(new Color(255,255,255));
       g2.fill(new Ellipse2D.Double(180,90,30,30));
+      
       
    }
 }
