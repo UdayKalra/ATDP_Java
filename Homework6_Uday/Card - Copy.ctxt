@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Card(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Creates\ the\ card.\r\n\ @param\ x\ Value\r\n\ @param\ y\ Suit\r\n
+comment1.params=
+comment1.target=java.lang.String\ getDescription()
+comment1.text=\r\n\ Returns\ card\ description.\r\n
+numComments=2
