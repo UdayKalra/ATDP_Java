@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DataSet()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ DataSet\r\n
+comment1.params=d
+comment1.target=void\ add(double)
+comment2.params=tot\ cnt
+comment2.target=double\ getAverage(double,\ double)
+comment3.params=
+comment3.target=double\ getStandardDeviation()
+comment4.params=val
+comment4.target=double\ subSquare(double)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
