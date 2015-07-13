@@ -8,6 +8,8 @@ import java.util.Scanner;
 public class E6_16
 {
    public static void main(String[] args){
+       try{
+           
        System.out.print("Enter side length: ");
        Scanner in = new Scanner(System.in);
        int num = in.nextInt();
@@ -20,5 +22,8 @@ public class E6_16
       }
       System.out.print("\n");
     }
-   }
+   }catch(Exception ex){
+    System.out.println("Invalid! Sorry.");
+    }
+}
 }
