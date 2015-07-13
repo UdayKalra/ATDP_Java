@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class P6_10
 {
     public static void main(String[] args){
+    try{
     Scanner in = new Scanner(System.in);
     int i = 0;
     int buyers=0;
@@ -32,5 +33,8 @@ public class P6_10
         }
     }while(i<=100);
     System.out.println("Total Buyers: "+buyers);
+}catch(Exception ex){
+    System.out.print("Invalid! Sorry.");
+    }
 }
 }
