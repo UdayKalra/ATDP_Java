@@ -8,6 +8,7 @@ import java.util.Random;
  */
 public class DrunkardsWalk2
 {public static void main(String[] args){
+    try{
     Scanner in = new Scanner(System.in);
     System.out.println("Please enter your starting x-coordinate: ");
     int x = in.nextInt();
@@ -60,7 +61,9 @@ public class DrunkardsWalk2
         }
          System.out.print(a+", "+b);
         }
-     
+     catch(Exception ex){
+    System.out.print("Invalid! Sorry.");
+    }
         
        
-}
+}}
