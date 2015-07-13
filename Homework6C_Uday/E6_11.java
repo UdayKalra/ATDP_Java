@@ -4,6 +4,7 @@ class E6_11
 {
    public static void main(String args[])
    {
+       try{
         System.out.print("Enter a string: ");
         Scanner in = new Scanner(System.in);
         String str="";
@@ -20,7 +21,9 @@ class E6_11
             
         }
         System.out.print(str+str2sub);
+    }catch(Exception ex){
+    System.out.print("Invalid, Sorry!");
     }
-   
+}
 }
 
