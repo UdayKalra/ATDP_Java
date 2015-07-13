@@ -8,7 +8,7 @@
 public class E6_14
 {
     public static void main(String[] args){
-        
+        try{
         for(int x = 1;x<=10;x++){
             for(int y = 1;y<=10;y++){
             int w=x*y;
@@ -32,5 +32,8 @@ public class E6_14
             }
             System.out.print("\n");
         }
+    }catch(Exception ex){
+    System.out.println("Invalid! Sorry.");
     }
+}
 }
