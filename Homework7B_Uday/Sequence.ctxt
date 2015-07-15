@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int[]\ getValues()
+comment1.params=size
+comment1.target=Sequence(int)
+comment2.params=i\ n
+comment2.target=void\ set(int,\ int)
+comment3.params=other
+comment3.target=boolean\ equals(Sequence)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=initialValues
+comment0.target=ArrayMethods(int[])
+comment1.params=
+comment1.target=void\ swapFirstAndLast()
+comment2.params=
+comment2.target=void\ evenToZero()
+comment3.params=
+comment3.target=void\ shiftRight()
+comment4.params=
+comment4.target=void\ getArray()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
