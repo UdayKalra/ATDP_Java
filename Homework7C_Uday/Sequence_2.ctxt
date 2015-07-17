@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sequence_2()
+comment1.params=n
+comment1.target=void\ add(int)
+comment1.text=public\ Sequence_2\ mergeSorted(){\r\nThis\ is\ the\ sort\ merge\ method.\ -Uday\r\n/*\ \ }
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=java.util.ArrayList\ getList()
+comment4.params=other
+comment4.target=Sequence_2\ mergeSorted(Sequence_2)
+comment5.params=arr\ sortOrder
+comment5.target=void\ findSortedPrefix(java.util.ArrayList,\ int[][])
+comment6.params=other
+comment6.target=Sequence_2\ append(Sequence_2)
+comment7.params=arr
+comment7.target=void\ initAndReset(int[][])
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

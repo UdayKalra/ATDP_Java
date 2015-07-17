@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Chart()
+comment0.text=\r\n\ Creates\ a\ Chart.\r\n\ @param\ xLeft\ Left\ coordinate\ of\ star.\r\n\ @param\ yTop\ Top\ coordinate\ of\ a\ star.\r\n
+comment1.params=n
+comment1.target=void\ add(int)
+comment2.params=g
+comment2.target=void\ draw(java.awt.Graphics2D)
+comment2.text=\r\n\ Draws\ the\ line\ with\ coordinates\ given.\r\n\ @param\ g\ Graphics2D\r\n
+numComments=3

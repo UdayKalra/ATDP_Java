@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=rows\ columns
+comment0.target=Table(int,\ int)
+comment1.params=i\ j\ n
+comment1.target=void\ set(int,\ int,\ int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=public\ static\ void\ neighborAverage(int\ row,\ int\ column){\r\n\ \ \ if((column\=\=0&&(row\=\=0||row\=\=2)||(column\=\=2&&(row\=\=0||row\=\=2)))){\r\n\ \ \ System.out.println("There\ are\ only\ three\ neighbors.");\r\n\ \ \ }\r\n\ \ \ else\ if((column\=\=0&&row\=\=1)||(column\=\=1&&(row\=\=0||row\=\=2))||(column\=\=2&&row\=\=1)){\r\n\ \ \ \ System.out.println("There\ are\ only\ five\ neighbors.");\r\n\ \ \ \ }\r\n\ \ \ else\ if(row\=\=1&&column\=\=1){\r\n\ \ \ \ System.out.println("The\ average\ of\ the\ neighbors\ is\:\ "+((a+b+c+d+e+f+g+h)/8));\r\n\ \ \ \ }\r\n\ \ \ \ //error\r\n\ \ \ \ if(row<0||row>2){\r\n\ \ \ \ System.out.println("The\ argument\ is\ invalid.");\r\n\ \ \ \ }\r\n\ \ \ \ if(column<0||column>2){\r\n\ \ \ \ System.out.println("The\ argument\ is\ invalid.");\r\n\ \ \ \ }\r\n}
+comment3.params=inpr\ inpc
+comment3.target=double\ computeAverage(int,\ int)
+comment4.params=r\ c
+comment4.target=void\ computeRowsCols(int,\ int)
+comment5.params=
+comment5.target=void\ resetRowsCols()
+numComments=6
