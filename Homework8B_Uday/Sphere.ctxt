@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=radius
+comment0.target=Sphere(double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cone\r\n
+comment1.params=sph
+comment1.target=double\ sphereVolume(Sphere)
+comment2.params=sph
+comment2.target=double\ sphereSurface(Sphere)
+numComments=3

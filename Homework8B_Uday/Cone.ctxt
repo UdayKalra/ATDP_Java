@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=radius\ height
+comment0.target=Cone(double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cone\r\n
+comment1.params=con
+comment1.target=double\ coneVolume(Cone)
+comment2.params=con
+comment2.target=double\ coneSurface(Cone)
+numComments=3

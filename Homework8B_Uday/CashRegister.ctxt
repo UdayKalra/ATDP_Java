@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=amount
+comment0.target=void\ recordPurchase(double)
+comment1.params=coinCount\ coinType
+comment1.target=void\ receivePayment(int,\ Coin)
+comment2.params=coinType
+comment2.target=double\ giveChange(Coin)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
