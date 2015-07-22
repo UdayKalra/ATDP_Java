@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AnyCorrectChoiceQuestion()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AnyCorrectChoiceQuestion\r\n
+comment1.params=choice\ correct
+comment1.target=void\ addChoice(java.lang.String,\ boolean)
+comment2.params=response
+comment2.target=boolean\ checkAnswer(java.lang.String)
+numComments=3

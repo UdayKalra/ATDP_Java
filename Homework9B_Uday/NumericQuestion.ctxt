@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NumericQuestion()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ NumericQuestion\r\n
+comment1.params=correctResponse
+comment1.target=void\ setAnswer(double)
+comment2.params=response
+comment2.target=boolean\ checkAnswer(double)
+numComments=3
