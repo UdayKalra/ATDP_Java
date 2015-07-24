@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=anObject
+comment0.target=double\ measure(java.lang.Object)
+comment0.text=\r\n\ \ \ \ \ \ Computes\ the\ measure\ of\ an\ object.\r\n\ \ \ \ \ \ @param\ anObject\ the\ object\ to\ be\ measured\r\n\ \ \ \ \ \ @return\ the\ measure\r\n
+numComments=1
