@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=nam
+comment0.target=State(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Returns\ the\ state's\ name.\r\n\ @return\ Name\ of\ the\ state.\r\n
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\r\n\ Sets\ the\ state's\ name.\r\n\ @param\ name\ Name\ of\ state.\r\n
+comment3.params=
+comment3.target=java.awt.geom.Point2D.Double\ getPoint()
+comment3.text=\r\n\ Returns\ the\ location\ of\ the\ state.\r\n\ @return\ The\ coordinate\ of\ the\ state's\ capital.\r\n
+comment4.params=point
+comment4.target=void\ setPoint(java.awt.geom.Point2D.Double)
+comment4.text=\r\n\ Sets\ the\ location\ of\ the\ state.\r\n\ @param\ point\ The\ coordinate\ of\ the\ state's\ capital.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDesc()
+comment5.text=\r\n\ Returns\ description\ of\ the\ state.\r\n\ @return\ Description\ of\ the\ state.\r\n
+comment6.params=desc
+comment6.target=void\ setDesc(java.lang.String)
+comment6.text=\r\n\ Sets\ the\ description\ of\ the\ state.\r\n\ @param\ desc\ The\ description\ of\ the\ state.\r\n
+numComments=7
